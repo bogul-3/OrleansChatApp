@@ -1,0 +1,6 @@
+@OrleansChat.Gateway_HostAddress = http://localhost:5058
+
+GET {{OrleansChat.Gateway_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

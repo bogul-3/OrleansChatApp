@@ -1,0 +1,35 @@
+﻿/*SINGLE SILO KONFIGURACIJA
+  {
+  "$schema": "https://json.schemastore.org/launchsettings.json",
+  "profiles": {
+    "OrleansChat.Silo": {
+      "commandName": "Project",
+      "dotnetRunMessages": true,
+      "environmentVariables": {
+        "DOTNET_ENVIRONMENT": "Development"
+      }
+    }
+  }
+}
+*/
+{
+  "$schema": "https://json.schemastore.org/launchsettings.json",
+  "profiles": {
+    "Silo-1": {
+      "commandName": "Project",
+      "commandLineArgs": "11111 30000",
+      "dotnetRunMessages": true,
+      "environmentVariables": {
+        "DOTNET_ENVIRONMENT": "Development"
+      }
+    },
+    "Silo-2": {
+      "commandName": "Project",
+      "commandLineArgs": "11112 30001",
+      "dotnetRunMessages": true,
+      "environmentVariables": {
+        "DOTNET_ENVIRONMENT": "Development"
+      }
+    }
+  }
+}

@@ -1,0 +1,51 @@
+# Visual Studio / VS Code
+.vs/
+.vscode/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# .NET Build output & Publish
+[Bb]in/
+[Oo]bj/
+[Pp]ublish/
+[Pp]ublished/
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Test results & Coverage
+[Tt]est[Rr]esults/
+*.trx
+coverage*.json
+coverage*.xml
+coverage*.cobertura.xml
+
+# Orleans specific (Logs, local storage, temporary data)
+logs/
+*.log
+*.svclog
+OrleansLogs/
+OrleansConfiguration.xml.bak
+
+# Local databases (ako koristiš Orleans AdoNet, Sqlite, ili Azurite za lokalni development)
+*.db
+*.db-shm
+*.db-wal
+*.mdf
+*.ldf
+
+# Azure Storage Emulator / Azurite local storage
+ura/
+__azurite_db_*_*.json
+azurite*.log
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db

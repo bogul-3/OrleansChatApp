@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="OrleansChat.Gateway/OrleansChat.Gateway.csproj" />
+  <Project Path="OrleansChat.Grains/OrleansChat.Grains.csproj" />
+  <Project Path="OrleansChat.Shared/OrleansChat.Shared.csproj" />
+  <Project Path="OrleansChat.Silo/OrleansChat.Silo.csproj" />
+</Solution>
